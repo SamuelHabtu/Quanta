@@ -68,7 +68,6 @@ def quoteEndPoint(symbol, function, interval = "5min"):
     function_key = list(data.keys())
     return float(data[function_key[0]]['05. price'])
 
-
 def searchEndPoint(keyword):
 
     params["function"] = "SYMBOL_SEARCH"
